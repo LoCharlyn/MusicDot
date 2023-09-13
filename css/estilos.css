@@ -9,9 +9,6 @@ h2{
     text-decoration:underline;
 }
 figure{
-    align-items: center;
     background-color: whitesmoke;
-}
-figure caption{
-    color: lightgray;
+    text-align: center;
 }
