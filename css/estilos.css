@@ -6,11 +6,11 @@ body {
     padding-right: 10px; 
 }
 
-h1{
+.Titulos{
     color: #3D3D3D;
     background-color: #E1EDF2;
 }
-h2::after, h3::after { /*Não sei exatamente como funciona, mas so sei que funciona ksksksksksksks, nao compreendi muito bem */
+.SubTitulos::after, .SubTitulos::after { /*Não sei exatamente como funciona, mas so sei que funciona ksksksksksksks, nao compreendi muito bem */
     content: "";
     display: block;
     height: 3px;
