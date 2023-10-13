@@ -18,7 +18,15 @@ body {
     margin-top: 10px; 
     background-color: black;
 }
-
+.formulario input, .formulario textarea, .formulario label {
+    display: inline-block;
+    padding: 10px;
+  }
+.inputs{
+    width: 500px;
+    max-height: 30px;
+    margin-bottom: 20px;
+}
 figure {
     background-color: whitesmoke;
     text-align: center;
@@ -38,4 +46,11 @@ figcaption {
 #familia-tupfeln{
     max-width: 275px;
     float: right;
+}
+#mensagem{
+    width: 502px;
+    height:  200px;
+}
+#enviar{
+    display: block;
 }
