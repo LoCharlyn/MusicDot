@@ -30,7 +30,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	text-decoration: #2e4255;
+	font-family: 'Montserrat';
+	color: #2e4255;
+}
+a, p, h1, h2, h3, h4 ,h5, h6, ul, li, figcaption, caption{
+	color: inherit;
 }
 ol, ul {
 	list-style: none;
