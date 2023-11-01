@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" alt="Icone"/>
     <link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen"/>
+
+    <script src="js/javascript.js"></script>
+
     <title>Contate-nos</title>
 </head>
 <body>
     <h1><strong>Contate-nos</strong></h1>
-    <form class="formulario">
+    <form class="formulario" onsubmit="return validarForm()"> <!--Para usar o javascript nesse caso colocasse na propia tag do formulario usando o "return" para ele identificar que é js-->
         <input type="text" name="nome" id="nome" class="inputs" placeholder="Fulano de Tal" required>
         <label for="nome">Nome</label>
 
@@ -21,6 +24,6 @@
 
         <textarea name="mensagem" id="mensagem" class="inputs" placeholder="Deixe a sua opnião"></textarea>
 
-        <input type="submit" name="enviar" id="enviar">
+        <input type="submit" name="enviar" id="enviar" >
     </form>
 </body>
